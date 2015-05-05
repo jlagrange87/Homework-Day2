@@ -1,8 +1,29 @@
 .header {
-	height: 50px;
+	height: 45px;
 	background:#008CBC;
 }
-
+.whitsq {
+	height: 32px;
+	width: 32px;
+	background:white;
+	margin-left: 15px ;
+	float: left;
+	margin-top: 6px
+}
+.whitrect {
+	height: 32px;
+	width: 118px;
+	background:white;
+	margin-left: 15px;
+	float:left;
+	margin-top: 6px;
+}
+.rightblue {
+	background: #0070A4;
+	width: 80px;
+	height: 45px;
+	float:right;
+}
 .main_p {
 	height: 1115px;
 	background:#33404F;
@@ -58,8 +79,6 @@
 	border-style: solid;
 	background-color: #058DBA;
 	height: 50px;
-
-
 }
 .tinygray {
 	margin: 215px auto 0px;
@@ -78,31 +97,41 @@
 	background: #FFFFFF;
 	height: 70px;
 	width: 300px;
-
+}
+.graysmall {	
+	height: 60px;
+	width: 50px;
+	background: #606E7D;
+	margin-top: 10px;
+	float:left;
+}
+.graybig {
+	height: 55px;
+	background: #606E7D;
+	width: 235px;
+	float:left;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 .foreg1 {
 	margin: 0px 10px 32px;
 	background: #FFFFFF;
 	height: 215px;
-
 }
 .foreg2 {
 	margin: 0px 10px 32px;
 	background: #FFFFFF;
 	height: 215px;
-
 }
 .foreg3 {
 	margin: 0px 10px 32px;
 	background: #FFFFFF;
 	height: 240px;
-
 }
 .foreg4 {
 	margin: 0px 10px 32px;
 	background: #FFFFFF;
 	height: 240px;
-
 }
 .foreg5 {
 	margin: 0px 10px 32px;
@@ -114,6 +143,27 @@
 	background: #FFFFFF;
 	height: 240px;
 }
+.foresq{
+	background: #C6D2D8;
+	height: 60px;
+	width: 60px;
+	margin: 20px 190px 0px ;
+	float: left
+}
+.foresmlrec {
+	background: #C6D2D8;
+	margin: 10px 15px 0px;
+	float: left;
+	height: 25px;
+	width: 410px;
+}
+.forelrgrec {
+	background: #C6D2D8;
+	float: left;
+	margin: 20px 15px 0px;
+	height: 50px;
+	width: 410px;
+}
 .whitblue {
 	background-color: #058DBA;
 	height: 50px;
@@ -124,7 +174,6 @@
 	margin: 15px 155px 0px;
 	height: 25px;
 	background: #FFFFFF;
-	
 }
 .bottomlinks1 {
 	color: #FFFFFF;
