@@ -1,0 +1,78 @@
+.header {
+	height: 50px;
+	background:#008CBC;
+}
+
+.main_p {
+	height: 1115px;
+	background:#33404F;
+	padding-bottom: 30px;
+}
+.sub1 {
+	height: 190px;
+	background:#E8F0F5;
+}
+.backg {
+	height: 1580px;
+	background:#D1D3D7;
+}
+.lgray {
+	height: 170px;
+	background:#E8F0F5;
+}
+.bottombox {
+	height: 130px ;
+	background:#000000;
+}
+.create {
+	font-size: 35px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top:170px;
+}
+.ffree {
+	font-size: 35px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.wpbusi1 {
+	font-size: 16px;
+	margin-top: 40px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.wpbusi2 {
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.blueboxmain {
+	margin: 40px auto 0px ;
+	width: 210px;
+	border-color: #202933;
+	border-width: 10px;
+	border-style: solid;
+	background-color: #058DBA;
+	height: 50px;
+
+
+}
+.tinygray {
+	margin: 215px auto 0px;
+	height: 20px;
+	width: 50px;
+	background: #FFFFFF;
+}
+.whitbox1 {
+	margin: 135px auto 0px;
+	background: #FFFFFF;
+	height: 70px;
+	width: 300px
+}
+.whitbox2-3 {
+	margin: 30px auto 0px;
+	background: #FFFFFF;
+	height: 70px;
+	width: 300px;
+
+}
