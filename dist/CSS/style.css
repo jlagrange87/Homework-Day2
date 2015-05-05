@@ -13,16 +13,20 @@
 	background:#E8F0F5;
 }
 .backg {
-	height: 1580px;
+	height: 1560px;
 	background:#D1D3D7;
+	padding-top: 35px;
 }
-.lgray {
-	height: 170px;
+.whitebmain {
+	height: 70px;
 	background:#E8F0F5;
+	padding-top: 100px;
 }
 .bottombox {
-	height: 130px ;
+	height: 45px ;
 	background:#000000;
+	padding-top: 35px;
+	padding-bottom: 45px;
 }
 .create {
 	font-size: 35px;
@@ -76,3 +80,81 @@
 	width: 300px;
 
 }
+.foreg1 {
+	margin: 0px 10px 32px;
+	background: #FFFFFF;
+	height: 215px;
+
+}
+.foreg2 {
+	margin: 0px 10px 32px;
+	background: #FFFFFF;
+	height: 215px;
+
+}
+.foreg3 {
+	margin: 0px 10px 32px;
+	background: #FFFFFF;
+	height: 240px;
+
+}
+.foreg4 {
+	margin: 0px 10px 32px;
+	background: #FFFFFF;
+	height: 240px;
+
+}
+.foreg5 {
+	margin: 0px 10px 32px;
+	background: #FFFFFF;
+	height: 215px;
+}
+.foreg6 {
+	margin: 0px 10px 32px;
+	background: #FFFFFF;
+	height: 240px;
+}
+.whitblue {
+	background-color: #058DBA;
+	height: 50px;
+	width: 210px;
+	margin: 0 auto ;
+}
+.bottomwhit {
+	margin: 15px 155px 0px;
+	height: 25px;
+	background: #FFFFFF;
+	
+}
+.bottomlinks1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	word-spacing: 10px;
+}
+.bottomlinks2 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+}
+.abtus1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 60px;
+	word-spacing: 5px;
+}
+.abtus {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 10px;
+	word-spacing: 5px
+}
+.abtusb {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 120px;
+	word-spacing: 
+}	
