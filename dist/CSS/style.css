@@ -1,3 +1,14 @@
+.imgsizing {
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+.imgcenter-size {
+	max-width: 55%;
+	max-height:55%;
+	margin:14px;
+
+}
 .header {
 	height: 45px;
 	background:#008CBC;
@@ -8,7 +19,8 @@
 	background:white;
 	margin-left: 15px ;
 	float: left;
-	margin-top: 6px
+	margin-top: 6px;
+	overflow:hidden;
 }
 .whitrect {
 	height: 32px;
@@ -49,8 +61,10 @@
 }
 .main_p {
 	height: 1115px;
-	background:#33404F;
+	background:url(../images/crowd.jpg);
 	padding-bottom: 30px;
+	background-size: cover;
+
 }
 .sub1 {
 	height: 190px;
@@ -132,13 +146,21 @@
 	text-align: center;
 }
 .blueboxmain {
-	margin: 40px auto 0px ;
+	margin: 0px auto 0px ;
 	width: 210px;
-	border-color: #202933;
-	border-width: 10px;
-	border-style: solid;
+	padding-top: 5px;
 	background-color: #058DBA;
 	height: 50px;
+}
+.transbox {
+  padding: 10px;
+  width: 220px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 2px;
 }
 .createweb {
 	font-size: 20px;
@@ -150,31 +172,32 @@
 	margin: 215px auto 0px;
 	height: 20px;
 	width: 50px;
-	background: #FFFFFF;
+/*	background: #FFFFFF;
+*/
 }
 .whitbox1 {
 	margin: 135px auto 0px;
-	background: #32404D;	
-	height: 70px;
+/*	background: #32404D;	
+*/	height: 70px;
 	width: 300px
 }
 .whitbox2-3 {
 	margin: 30px auto 0px;
-	background: #32404D;	
-	height: 70px;
+/*	background: #32404D;	
+*/	height: 70px;
 	width: 300px;
 }
 .graysmall {	
 	height: 60px;
 	width: 50px;
-	background: white;
-	margin-top: 10px;
+/*	background: white;
+*/	margin-top: 10px;
 	float:left;
 }
 .graybig {
 	height: 55px;
-	background: #32404D;
-	width: 235px;
+/*	background: #32404D;
+*/	width: 235px;
 	float:left;
 	margin-bottom: 10px;
 	margin-left: 10px;
@@ -184,12 +207,12 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 20px	;
-	background-color:#32404D;
-}
+/*	background-color:#32404D;
+*/}
 .smallready {
 	color: #D5D6D7;
-	background-color:#32404D;
-	margin-top: 10px;
+/*	background-color:#32404D;
+*/	margin-top: 10px;
 	font-size:14px;
 }
 .foreg1 {
@@ -233,10 +256,11 @@
 	height: 60px;
 	width: 60px;
 	margin: 0 auto;
+	border-radius: 50%/50%;
 }
 .foresmlrec {
-	background: white;
-	margin: 10px auto 0px;
+/*	background: white;
+*/	margin: 10px auto 0px;
 	height: 25px;
 	width: 410px;
 }
@@ -246,8 +270,8 @@
 	font-size: 20px;
 }
 .forelrgrec {
-	background: white;
-	margin: 20px auto 0px;
+/*	background: white;
+*/	margin: 20px auto 0px;
 	height: 50px;
 	width: 410px;
 }
@@ -290,7 +314,7 @@
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 12px;
-	margin-left: 60px;
+	margin-left: 5px;
 	word-spacing: 5px;
 }
 .abtus {
@@ -304,6 +328,15 @@
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 12px;
-	margin-left: 120px;
-	word-spacing: 
-}	
+	margin-left: 10px;
+}
+.linkmargin {
+	margin-left: 10%;
+	margin-right: 10%; 
+	text-align: center;
+}
+.carrots {
+	font-size: 46px;
+	text-align: center;
+	color: white;
+}
